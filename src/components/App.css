@@ -1,0 +1,132 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #3d0059, #000032);
+  color: white;
+}
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.wallet-connect {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.connect-button {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.connect-button:hover {
+  background: linear-gradient(to right, #a259ff, #6a00f0);
+}
+
+.wallet-address {
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.upload-card {
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 2rem;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.purple {
+  color: #a259ff;
+}
+
+.file-input {
+  margin: 1rem 0;
+  color: white;
+}
+
+.preview-section {
+  margin: 1rem 0;
+}
+
+.preview-text {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.preview-image {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.upload-button {
+  background-color: #00c6ff;
+  background-image: linear-gradient(45deg, #00c6ff, #0072ff);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 9999px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+  transition: background 0.3s ease;
+}
+
+.upload-button:hover {
+  background-image: linear-gradient(45deg, #00aaff, #005eff);
+}
+
+.status-text {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+}
+
+.link-section {
+  margin-top: 1.5rem;
+  word-break: break-all;
+}
+
+.link-label {
+  font-weight: bold;
+}
+
+.upload-link {
+  color: #60a5fa;
+  text-decoration: underline;
+}
